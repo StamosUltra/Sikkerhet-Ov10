@@ -1,6 +1,6 @@
-#Sikkerhet-Ov10
+# Sikkerhet-Ov10
 
-##Oppgave 1:
+## Oppgave 1:
 
 For å kjøre programmet:
 1. Åpne er terminal i mappen: opg1
@@ -8,7 +8,7 @@ For å kjøre programmet:
 3. Åpne: 'index.html' i en nettleser
 4. Du skal se: 'Hello, World', i nettleseren, og i terminalen så kan du se klinten og serveren kjøre
 
-##Forklaring:
+## Forklaring:
 Her har jeg laget en server i node.js (se: opg1/app.js), og en klient i javascript (se: opg1/js/scripts.js)
 
 Klienten prøver først å logge inn med brukernavn: 'root', og passord: 'passord123'
@@ -29,7 +29,7 @@ Klienten gjentar stegene over 1 gang til, men med en bruker med feil passord, og
 
 Tilslutt gjentar klienten prosessen 1 gang til, og får tilbakemelding om at innlogging lyktes
 
-##Oppgave 2 del 1
+## Oppgave 2 del 1
 I denne oppgaven så skal jeg laget et selv-signert SSL sertifikat med OpenSSL
 Du finner sertifikatet under: opg2/server.crt, og nøkkelen under opg2/server.key
 
@@ -41,7 +41,7 @@ For å få dem over på .crt og .key format, så skrev jeg i terminalen:
 "openssl rsa -outform der -in key.pem -out server.key", og 
 "openssl x509 -outform der -in cert.pem -out server.crt"
 
-##Oppgave 2 del 2
+## Oppgave 2 del 2
 I denne oppgaven skal jeg sette opp en HTTPS tjeneste.
 
 Jeg har tatt utgangspukt i [Simple-Web-Server](https://gitlab.com/eidheim/Simple-Web-Server).
